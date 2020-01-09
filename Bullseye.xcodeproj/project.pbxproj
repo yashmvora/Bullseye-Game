@@ -12,6 +12,7 @@
 		D350F51F22A5278300517F32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D350F51D22A5278300517F32 /* Main.storyboard */; };
 		D350F52122A5278600517F32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D350F52022A5278600517F32 /* Assets.xcassets */; };
 		D350F52422A5278600517F32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D350F52222A5278600517F32 /* LaunchScreen.storyboard */; };
+		D350F52C22A65D5B00517F32 /* AboutvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D350F52B22A65D5B00517F32 /* AboutvViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D350F52022A5278600517F32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D350F52322A5278600517F32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D350F52522A5278600517F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D350F52B22A65D5B00517F32 /* AboutvViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutvViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				D350F51922A5278300517F32 /* AppDelegate.swift */,
-				D350F51B22A5278300517F32 /* ViewController.swift */,
 				D350F51D22A5278300517F32 /* Main.storyboard */,
+				D350F51B22A5278300517F32 /* ViewController.swift */,
+				D350F52B22A65D5B00517F32 /* AboutvViewController.swift */,
 				D350F52022A5278600517F32 /* Assets.xcassets */,
 				D350F52222A5278600517F32 /* LaunchScreen.storyboard */,
 				D350F52522A5278600517F32 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				D350F51C22A5278300517F32 /* ViewController.swift in Sources */,
 				D350F51A22A5278300517F32 /* AppDelegate.swift in Sources */,
+				D350F52C22A65D5B00517F32 /* AboutvViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +293,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Bullseye;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.yash.Bullseye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +311,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Bullseye;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.yash.Bullseye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
